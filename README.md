@@ -1,4 +1,4 @@
-*This activity has been created as part of the 42 curriculum by <login1>, <login2>.*
+*This activity has been created as part of the 42 curriculum by kkrriku, ajrexha.*
 
 # push_swap
 
@@ -35,7 +35,7 @@ The project compiles with `cc -Wall -Wextra -Werror` and uses a custom `libft` l
 ### Verification with checker
 
 ```bash
-ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG
+ARG="4 67 3 87 23"; ./push_swap --complex $ARG | ./checker_os $ARG
 # Should print: OK
 ```
 
@@ -129,7 +129,7 @@ The adaptive strategy measures the disorder of the input before sorting and sele
 
 ### AI usage
 
-AI (Claude) was used as a development assistant for:
+AI was used as a development assistant for:
 - Implementing the sorting algorithms based on our design decisions
 - Writing boilerplate code (libft functions, stack operations, Makefile)
 - Debugging and optimizing operation counts
